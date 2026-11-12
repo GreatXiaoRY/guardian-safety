@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Guardian Safety</h1>
-  <p><strong>面向 AI Agent 的个人安全响应 Skill</strong></p>
+  <h1>人身安全黑匣子</h1>
+  <p><strong>Guardian Safety · 面向 AI Agent 的个人安全响应 Skill</strong></p>
   <p>在危险预防、紧急响应、法律信息导航和事后整理中，提供清晰、克制且可执行的行动支持。</p>
   <p>
     <a href="https://github.com/GreatXiaoRY/guardian-safety/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/GreatXiaoRY/guardian-safety?display_name=tag&amp;sort=semver"></a>
@@ -22,7 +22,7 @@
 
 ## 项目简介
 
-Guardian Safety 是一个平台无关的文档型 Agent Skill。它为兼容 Skills 机制的 AI Agent 提供统一的人身安全响应规则，使 Agent 能够：
+人身安全黑匣子（Guardian Safety，以下简称 Guardian）是一个平台无关的文档型 Agent Skill。它为兼容 Skills 机制的 AI Agent 提供统一的人身安全响应规则，使 Agent 能够：
 
 - 在紧急情形中先给行动建议，再询问必要信息。
 - 把生命安全置于取证、财物和流程之前。
@@ -31,7 +31,7 @@ Guardian Safety 是一个平台无关的文档型 Agent Skill。它为兼容 Ski
 - 尊重用户选择，减少不必要的敏感信息收集。
 - 按辖区核实紧急号码和法律信息，不猜测或虚构结果。
 
-Guardian 本身不运行后端服务，不保存用户数据，也不绑定特定模型或 Agent 平台。
+“黑匣子”在这里指安全规则、行动指引和事件整理工具的集合，不代表自动录音、定位、监控或保存用户数据。Guardian 本身不运行后端服务，也不绑定特定模型或 Agent 平台。
 
 ## 快速开始
 
@@ -174,4 +174,4 @@ python scripts/check_references.py
 
 ## 许可证
 
-Guardian Safety 采用 [Apache License 2.0](LICENSE) 发布。
+人身安全黑匣子（Guardian Safety）采用 [Apache License 2.0](LICENSE) 发布。
